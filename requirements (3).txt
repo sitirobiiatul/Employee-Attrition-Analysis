@@ -421,6 +421,7 @@ pygame==2.6.1
 pygit2==1.18.0
 Pygments==2.19.1
 PyGObject==3.42.0
+pyngrok==5.1.0
 PyJWT==2.10.1
 pylibcudf-cu12 @ https://pypi.nvidia.com/pylibcudf-cu12/pylibcudf_cu12-25.2.1-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl
 pylibcugraph-cu12==25.2.0
@@ -517,6 +518,7 @@ sqlparse==0.5.3
 srsly==2.5.1
 stanio==0.5.1
 statsmodels==0.14.4
+streamlit==1.10.0
 stringzilla==3.12.5
 sympy==1.13.1
 tables==3.10.2
