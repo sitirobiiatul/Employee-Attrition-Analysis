@@ -70,4 +70,72 @@ streamlit run streamlit_app.py
 **Streamlit Link**
 
 Link cloud streamlit dapat diaksaes melalui: https://employee-attrition-analysis-sitirobiiatul.streamlit.app/
-    
+
+## Business Dashboard
+
+Dashboard interaktif menggunakan Tableau ini dibuat untuk membantu tim HR memahami pola dan faktor-faktor utama yang menyebabkan attrition (pengunduran diri) karyawan.
+
+![Employee Attrition Dashboard](sitirobiiatul-dashboard.png)
+
+Dashboard ini memberikan gambaran menyeluruh atas data karyawan, mencakup:
+
+- Total employees dan attrition rate secara keseluruhan.
+
+- Rata-rata gaji bulanan dan total masa kerja karyawan yang sudah keluar (attrited).
+
+- Distribusi attrition berdasarkan usia, jabatan, pendapatan bulanan, dan lama bekerja.
+
+Gunakan filter interaktif di sisi kanan dashboard yang terdiri dari **Gender**, **Department**, **Marital Status**, **Job Satisfaction**, **Over Time**, **Business Travel** untuk mengeksplorasi pola attrition lebih dalam.
+
+🔗 Akses Dashboard:
+👉  [Klik di sini untuk melihat dashboard di Tableau Public](https://public.tableau.com/views/EmployeeAttritionDashboard_17465404934230/Dashboard2?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link 'Tableau Public- Employees Attrition Dashboard')
+
+## Conclusion
+
+Berikut ringkasan temuan utama dari analisis data terkait Employee Attrition yang telah dilakukan:
+
+- **Attrition Berdasarkan Usia dan Masa Kerja**
+
+Karyawan berusia 19–30 tahun memiliki tingkat attrition tertinggi, dengan penurunan signifikan setelah usia 35 tahun. Karyawan dengan masa kerja 0–3 tahun juga mencatatkan angka attrition tertinggi.
+
+- **Attrition Berdasarkan Pendapatan**
+
+Karyawan dengan pendapatan bulanan di bawah 3.000 USD lebih banyak mengalami attrition dibandingkan dengan mereka yang berpendapatan di atas 5.000 USD.
+
+- **Attrition Berdasarkan OverTime**
+
+Sebagian besar karyawan yang mengalami attrition berasal dari kelompok yang bekerja lembur. Karyawan yang tidak lembur menunjukkan angka attrition yang jauh lebih rendah.
+
+- **Attrition Berdasarkan Job Role dan Perjalanan Dinas**
+
+Posisi sebagai Sales Executive dan Laboratory Technician memiliki tingkat attrition tertinggi. Sementara itu, posisi Research Director dan Manager menunjukkan tingkat attrition paling rendah.
+Karyawan dengan frekuensi perjalanan dinas yang sering (Travel_Frequently) juga menunjukkan tingkat attrition yang lebih tinggi dibandingkan kategori lainnya.
+
+### Recommended Action Items
+
+Berikut adalah rekomendasi kebijakan strategis yang dapat diambil berdasarkan temuan pada analisis data attrition:
+
+- **Retensi untuk Karyawan Muda & Baru**
+
+Fokuskan program onboarding, mentorship, dan career development pada karyawan berusia 19–30 tahun dan yang memiliki masa kerja kurang dari 3 tahun. Segmentasi program pelatihan awal sangat penting untuk meningkatkan loyalitas dan keterikatan.
+
+- **Review dan Penyesuaian Gaji**
+
+Tinjau kembali struktur gaji untuk memastikan bahwa karyawan dengan penghasilan di bawah 3.000 USD tetap mendapatkan kompensasi yang kompetitif, terutama pada level awal atau posisi rentan terhadap attrition.
+
+- **Manajemen Beban Kerja Lembur**
+
+Implementasikan kebijakan manajemen lembur yang lebih sehat dan fleksibel. Pertimbangkan untuk memantau dan membatasi frekuensi lembur guna mencegah burnout yang dapat menyebabkan attrition.
+
+- **Pengembangan Karier Berdasarkan Role**
+
+Posisi seperti Sales Executive dan Laboratory Technician memerlukan perhatian khusus dalam hal jalur pengembangan karier dan motivasi kerja. Sediakan pelatihan lanjutan, peluang promosi, dan pengakuan prestasi untuk mengurangi turnover.
+
+- **Evaluasi Kebijakan Perjalanan Dinas**
+
+Frekuensi perjalanan dinas yang tinggi terbukti berkontribusi terhadap attrition. Pertimbangkan pemberian kompensasi tambahan, opsi perjalanan yang fleksibel, atau penggantian peran dengan tugas hybrid untuk mengurangi beban.
+
+- **Prediksi tingkat kemungkinan karyawan akan mengundurkan diri**
+
+Prediksi tersebut dapat dilakukan melalui dashboard interaktif berbasis Streamlit yang sudah dicantunkan di atas.
+Pengguna cukup memasukkan karakteristik seorang karyawan, dan sistem akan memberikan estimasi apakah karyawan tersebut berisiko mengalami attrition.
