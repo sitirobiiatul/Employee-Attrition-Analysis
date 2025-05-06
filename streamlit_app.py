@@ -122,4 +122,4 @@ if submitted:
         st.success(f"✅ Employee is likely to stay. (Probability of leaving: {probas:.2f})")
 
 st.markdown("---")
-st.markdown("<p style='text-align: center; font-size: 12px;'>© 2025 | Developed by <strong>Siti Robiiatul ADawiyyah</strong></p>", unsafe_allow_html=True)
+st.markdown("<p style='text-align: center; font-size: 12px;'>© 2025 | Developed by <strong>Siti Robiiatul Adawiyyah</strong></p>", unsafe_allow_html=True)
