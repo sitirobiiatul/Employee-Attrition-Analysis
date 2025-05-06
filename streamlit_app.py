@@ -15,7 +15,7 @@ from joblib import load
 from sklearn.preprocessing import LabelEncoder, MinMaxScaler
 
 # Load model
-model = joblib.load('model_gb.joblib')
+model = joblib.load('gb_model.joblib')
 
 # Preprocessing function
 def data_preprocessing(data_input):
